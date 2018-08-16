@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+
+<body>
+    <div id="main">
+
+        <h1 id="title">Survey Form</h1>
+
+        <form id="survey-form">
+        
+            <p id="description">Please fill in the following:</p>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="name" id="name-label">* Name:</label>
+                </div>
+
+                <div class="rightTab">
+                    <input type="text" id="name" class="input-field" placeholder="enter your name" required="">
+                </div>
+
+            </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="email" id="email-label">* Email:</label>
+                </div>
+
+                <div class="rightTab">
+                    <input type="email" id="email" class="input-field" placeholder="enter your email address" required="">
+                </div>
+            </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="number" id="number-label">Age:</label>
+                </div>    
+
+                <div class="rightTab">
+                    <input type="number" id="number" class="input-field" placeholder="enter age" min="0" max="300" required=""> 
+                </div>
+
+            </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="operating system" id="os-label">What is your Operating System?:</label>
+                </div>
+
+                <div class="rightTab">
+                    <select id="dropdown" class="dropdown" name="operating-system">
+                        <option disable value="select">Select an option</option>
+                        <option value="Windows">Windows</option>
+                        <option value="Mac">Mac</option>
+                        <option value="Linux">Linux</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="rowTab">
+                <div class="labelsbutton">
+                    <label for="favoritefood">What is your favorite food?</label>
+                </div>
+                
+                <div class="rightTab">
+                    <div>   
+                        <input type="radio" id="Pizza" name="food" value="Pizza">
+                        <label for="Pizza">Pizza</label>
+                    </div>
+                    
+                    <div>   
+                        <input type="radio" id="Hamburger" name="food" value="Hamburger">
+                        <label for="Hamburger">Hamburger</label>
+                    </div>
+                    
+                    <div>   
+                        <input type="radio" id="Fries" name="food" value="Fries">
+                        <label for="Fries">Fries</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="rowTab">
+                <div class="labelscheckbox">
+                    <label>Select your favorite music genres:</label>
+                </div>
+                
+                <div class="rightTab">
+                    <div>
+                        <input type="checkbox" id="Rock" name="genre" value="Rock">
+                        <label for="Rock">Rock</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="Jazz" name="genre" value="Jazz">
+                        <label for="Jazz">Jazz</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="Hip-Hip" name="genre" value="Hip-Hip">
+                        <label for="Hip-Hip">Hip-Hop</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="rowTab">
+                <label for="additional-comments" class="center-label">Additional Comments?</label> 
+                <textarea id="additional-comments" class="comment-box" placeholder="Enter Comments Here..."></textarea>
+            </div>
+            <button id="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

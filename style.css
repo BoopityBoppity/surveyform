@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+    background-color: rgba(92, 224, 228, 0.864);
+}
+
+#main {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#title {
+    font-size: 40px;
+    height: auto;
+    margin-top: 20px;
+}
+
+#survey-form {
+    background-color: white;
+    border-radius: 10px;
+    width: 75%;
+    max-width: 900px;
+    margin: auto;
+    padding-top: 1px;
+    height: 100%;
+}
+
+#form-description {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+fieldset label {
+    display: block;
+}
+
+.rowTab {
+    margin: 30px;
+    display: block;
+}
+
+.custom-select {
+    width: 200px;
+    margin: auto;
+}
+
+.os-label {
+    display: block;
+}
+
+#dropdown {
+    display: block;
+}
+
+.labels {
+    display: inline-block;
+    text-align: right;
+    padding: 5px;
+    width: 40%;
+}
+
+.rightTab {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    padding: 5px;
+}
+
+.input-field {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+}
+
+.dropdown {
+    height: 30px;
+    width: 295px;
+}
+
+.labelsbutton {
+    display: inline-block;
+    text-align: right;
+    padding: 5px;
+    width: 40%;
+    vertical-align: top;
+}
+
+.labelscheckbox {
+    display: inline-block;
+    text-align: right;
+    padding: 5px;
+    width: 40%;
+    vertical-align: top;
+}
+
+.center-label {
+    display: block;
+}
+
+.comment-box {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    margin-top: 10px;
+    overflow-y: auto;
+    border-radius: 3px;
+    resize: vertical;
+}
+
+textarea.comment-box::placeholder {
+    text-align: center;
+    font-size: 20px;
+}
+
+.submit-button {
+    margin-bottom: 20px;
+    background-color: skyblue;
+    color: azure;
+    font-size: 16px;
+    height: 40px;
+    width: 96px;
+    border-radius: 10px;
+}
